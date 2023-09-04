@@ -1,0 +1,19 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.container {
+  margin-top: 100px;
+}
